@@ -41,7 +41,3 @@ if __name__ == '__main__':
     vards = input("Ka tevi sauc")
     sasveicinaties(vards)
     izvelne(vards)
-
-
-
-
