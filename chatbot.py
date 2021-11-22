@@ -26,7 +26,7 @@ def direktori():
 
 def tradicijas():
     print(
-        "Tradīcija ir tas, kas mums un mūsu kultūrai ir svarīgs. Dažas no mūsu skolas tradīcijām: Latvijas Valsts proklamēšanas diena, Zinību diena, Sporta svētki dažādās vecuma grupās. \nPar ko vēl gribi uzzināt?"
+        "Tradīcija ir tas, kas mums un mūsu kultūrai ir svarīgs. Dažas no mūsu skolas tradīcijām: Latvijas Valsts proklamēšanas diena, Zinību diena, Sporta svētki dažādās vecuma grupās."
           "\nJa vēlaties uzzināt vairāk par mūsu tradīcijām, sekojiet saitei http://v2v.edu.lv/par-skolu/tradicijas/ \nPar ko vēl gribi uzzināt?" )
     return izvelne(vards)
 
