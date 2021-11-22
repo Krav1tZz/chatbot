@@ -6,11 +6,11 @@ def izglitibas_programmas():
         print(
             "Pirmsskolas izglītības iestāde ir dibināta 1961.gadā, Valmieras 2. vidusskolas paspārnē darbojas kopš 2000. gada. \nPirmsskolas izglītība ir obligāta bērniem no 5 gadu vecuma. \n"
               "Mūsu pieredzējušie skolotāji palīdz skolēniem attīstīt pašapziņu, attīstīt fiziskās, intelektuālās un radošās prasmes, rūpēties par savu veselību un sagatavot tālākām mācībām \nPar ko vēl gribi uzzināt?")
-        return (izvelne(vards))
+        return izvelne(vards)
     elif izvele == 2:
        print(
            "Vispārējā izglītība pavisam ilgst 12 gadus, ietverot obligāto 9-gadīgo pamatizglītību un 3-gadīgo vidējo izglītību \nPar ko vēl gribi uzzināt?")
-       return(izvelne(vards))
+       return izvelne(vards)
 
 
     else:
@@ -20,14 +20,15 @@ def izglitibas_programmas():
 
 def direktori():
     print(
-        "Artūrs Krīgers - 1946 - 1960 \nAnna Piebalga - 1962 - 1983 \nEdīte Endola - 1983 - 1984 \nGunārs Bergmanis - 1984 - 1986 \nEdmunds Jansons - 1984 - 1986 \nAnastasija Vībāne - 1989 - 2009 \nPašreizējais direktors Andrejs Gluhovs - 2009 - xxxx")
+        "Artūrs Krīgers - 1946 - 1960 \nAnna Piebalga - 1962 - 1983 \nEdīte Endola - 1983 - 1984 \nGunārs Bergmanis - 1984 - 1986 \nEdmunds Jansons - 1984 - 1986 \nAnastasija Vībāne - 1989 - 2009 \nPašreizējais direktors Andrejs Gluhovs - 2009 - xxxx \nPar ko vēl gribi uzzināt?")
+        return izvelne(vards)
 
 
 def tradicijas():
     print(
         "Tradīcija ir tas, kas mums un mūsu kultūrai ir svarīgs. Dažas no mūsu skolas tradīcijām: Latvijas Valsts proklamēšanas diena, Zinību diena, Sporta svētki dažādās vecuma grupās. \nPar ko vēl gribi uzzināt?"
-          "\nJa vēlaties uzzināt vairāk par mūsu tradīcijām, sekojiet saitei http://v2v.edu.lv/par-skolu/tradicijas/" )
-    return(izvelne(vards))
+          "\nJa vēlaties uzzināt vairāk par mūsu tradīcijām, sekojiet saitei http://v2v.edu.lv/par-skolu/tradicijas/ \nPar ko vēl gribi uzzināt?" )
+    return izvelne(vards)
 
 
 def skolas_eka():
